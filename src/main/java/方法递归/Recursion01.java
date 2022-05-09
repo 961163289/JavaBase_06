@@ -2,11 +2,14 @@ package 方法递归;
 
 public class Recursion01 {
     public static void main(String[] args) {
+
         T t1 = new T();
         t1.test(4);//输出什么? n=2 n=3 n=4
+
         int num = 5;
         int res = t1.factorial(num);
         System.out.println("\n" + num + "的阶乘 = " + res);
+
     }
 }
 

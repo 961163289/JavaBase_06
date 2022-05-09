@@ -11,7 +11,8 @@ public class RecursionExercise01 {
         }
 
         int day = 9;
-        int peachNum = t1.peach(day); if(peachNum != -1) {
+        int peachNum = t1.peach(day);
+        if (peachNum != -1) {
             System.out.println("第" + day + "天有" + peachNum + "个桃子");
         }
 
@@ -49,10 +50,10 @@ class TT {
 
     思路分析 逆推
     1. day = 10  时 有 1 个桃子
-    2. day = 9  时	有 (day10 + 1) * 2 = 4
-    3. day = 8  时	有 (day9 + 1) * 2 = 10
-    4.	规律就是	前一天的桃子 = (后一天的桃子 + 1) *2//就是我们的能力
-    5.	递归
+    2. day = 9   时 有 (day10 + 1) * 2 = 4
+    3. day = 8   时 有 (day9 + 1) * 2 = 10
+    4. 规律就是	 前一天的桃子 = (后一天的桃子 + 1) *2 //就是我们的能力
+    5. 递归
     */
     public int peach(int day) {
         if (day == 10) {
