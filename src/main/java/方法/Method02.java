@@ -27,7 +27,7 @@ public class Method02 {
 
 //把输出的功能,写到一个类的方法中,然后调用该方法即可
 class MyTools {
-    //方法,接收一个二位数组
+    //方法,接收一个二维数组
     public void printArr(int[][] map) {
         System.out.println("=========");
         //对传入的 map 数组进行遍历输出
