@@ -2,7 +2,7 @@ package 类与对象;
 
 public class Object02 {
     public static void main(String[] args) {
-
+        Car car = new Car();
     }
 }
 
